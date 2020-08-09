@@ -10,6 +10,5 @@ class Anagram
     array.map do |word|
       word.split("") == @word.split("")
       end
-    end
   end
 end
