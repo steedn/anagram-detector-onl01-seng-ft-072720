@@ -12,6 +12,7 @@ class Anagram
         word
       else
         []
+      end
     end
   end
 end
