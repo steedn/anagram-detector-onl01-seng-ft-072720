@@ -14,7 +14,7 @@ class Anagram
     end
     if new_word == false
       []
-    else 
+    else
       new_word
     end
   end
