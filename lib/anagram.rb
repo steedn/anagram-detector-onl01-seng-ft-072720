@@ -7,8 +7,15 @@ class Anagram
   end
 
   def match(array)
-    array.find do |word|
-      word.split("") == @word.split("")
+    array.each do |word|
+      if word.split("") == @word.split("")
+        new_word = word
+      end
+    end
+    if new_word == false
+      []
+    else 
+      new_word
     end
   end
 end
