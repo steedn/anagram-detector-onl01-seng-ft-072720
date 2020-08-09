@@ -9,6 +9,6 @@ class Anagram
   def match(array)
     array.map do |word|
       word.split("") == @word.split("")
-      end
+    end
   end
 end
